@@ -23,7 +23,7 @@
                         <input type="password" name="password" class="form-control mb-3" placeholder="password" required>
                         <button type="submit" class="btn btn-primary">Login</button>
                         <a href="<?=base_url("auth/register");?>" class="btn btn-primary">Daftar</a>
-                    </form> 
+                    </form> ///////
                 </div>
             </div>
         </div>
