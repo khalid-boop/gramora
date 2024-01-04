@@ -18,12 +18,13 @@
                 <div class="card-header">Login form</div>
                 <div class="card-body">
                      <?=$this->session->flashdata('info_register');?>
-                    <form method="POST" action="">
+                     <?=$this->session->flashdata('info_login');?>
+                    <form method="POST" action="<?=base_url('auth/ceklogin');?>">
                         <input type="text" name="username" class="form-control mb-3" placeholder="username" required>
                         <input type="password" name="password" class="form-control mb-3" placeholder="password" required>
                         <button type="submit" class="btn btn-primary">Login</button>
                         <a href="<?=base_url("auth/register");?>" class="btn btn-primary">Daftar</a>
-                    </form> ///////
+                    </form> 
                 </div>
             </div>
         </div>
