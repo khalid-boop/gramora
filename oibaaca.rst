@@ -3,6 +3,7 @@ stepnya
 1. lu ngambil semua data yg ada di view lu kek (nama, user, passwoord, confirm-pass) dll
 2. tulis tag if(!empty($_POST['//usernama atau yg mau lu jadiin patokan'])){}
    -gunanya untuk validasi biar jika ada manusia coba coba masuk di url gak bisa masu tu bocah
+   -jangan lupa tag $this->db->where('usernamae', $variable_mu)
 3. habis tu lu masukin semua atribut database semuanya  
 4. bsi tu lu buat variable cek_username di dalamnya atribut *$this->db->get()*
 5. bis tu lu buat logika if *if($cek_username->num_rows() > 0)* > 0 maksudnya ada data di situ
